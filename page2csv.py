@@ -6,6 +6,9 @@ import string
 import csv
 from bs4 import BeautifulSoup
 
+def sortByName(row):
+    return row['name']
+
 if __name__ == "__main__":
     datafile = 'data/{}.csv'
     if len(sys.argv) != 2 and len(sys.argv) != 3:
@@ -15,7 +18,7 @@ if __name__ == "__main__":
         datafile = datafile.format(doc_id)
     else:
         doc_id = sys.argv[1]
-        if sys.argv > 2:
+        if len(sys.argv) > 2:
             datafile = sys.argv[2]
         else:
             datafile = datafile.format(doc_id)
@@ -50,6 +53,8 @@ if __name__ == "__main__":
             rows.append(data)
 
         headings.insert(0, "name")    
+
+        rows.sort(key=sortByName)
 
         with open(datafile, 'w', newline='') as csvfile:
             output = csv.writer(csvfile)
