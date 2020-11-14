@@ -12,6 +12,8 @@ pip3 install -r requirements.txt
 
 ## scripts
 
+To download a crew list data from a page as a CSV you can use the following script:
+
 Usage:
 	python3 page2csv.py [Document id e.g. 189083 from https://1915crewlists.rmg.co.uk/document/189083] [optional output file]
 
