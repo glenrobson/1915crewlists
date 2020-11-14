@@ -10,7 +10,7 @@ def sortByName(row):
     return row['name']
 
 if __name__ == "__main__":
-    datafile = 'data/{}.csv'
+    datafile = 'docs/_data/csv/{}.csv'
     if len(sys.argv) != 2 and len(sys.argv) != 3:
         doc_id = 189083
         print ('Usage:\n\t{} [Document id e.g. 189083 from https://1915crewlists.rmg.co.uk/document/189083] [optional output file]'.format(sys.argv[0]))
