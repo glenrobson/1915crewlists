@@ -10,7 +10,7 @@ Requires python3 and the following libraries:
 pip3 install -r requirements.txt 
 ```
 
-## scripts
+## Scripts
 
 To download a crew list data from a page as a CSV you can use the following script:
 
