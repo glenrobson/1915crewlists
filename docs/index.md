@@ -1,9 +1,11 @@
-## 1915 Crewlists data
 
 A page to give access to machine readable data from the excellent:
 
 [https://1915crewlists.rmg.co.uk](https://1915crewlists.rmg.co.uk)
 
+The code to create the downloads is available here:
+
+[https://github.com/glenrobson/1915crewlists/](https://github.com/glenrobson/1915crewlists/)
 
 ### CSV files:
 
