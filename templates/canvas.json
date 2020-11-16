@@ -3,6 +3,7 @@
     "type": "Canvas",
     "height": {{ height }},
     "width": {{ width }},
+    "label": { "en": [ "{{! label }}" ]},
     "thumbnail": [{
       "id": "{{ thumb_url }}",
       "type": "Image",

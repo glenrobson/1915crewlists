@@ -111,6 +111,11 @@
             "type": "Canvas",
             "height": 1851,
             "width": 1380,
+            "label": {
+                "en": [
+                    "Page 1"
+                ]
+            },
             "thumbnail": [
                 {
                     "id": "https://1915crewlists.rmg.co.uk/crewmedia/BT400-3578/BT400-3578-005/BT400-3578-005-1_thumb_240px.jpg",
@@ -147,6 +152,11 @@
             "type": "Canvas",
             "height": 1334,
             "width": 1991,
+            "label": {
+                "en": [
+                    "Page 2"
+                ]
+            },
             "thumbnail": [
                 {
                     "id": "https://1915crewlists.rmg.co.uk/crewmedia/BT400-3578/BT400-3578-005/BT400-3578-005-2_thumb_240px.jpg",
@@ -183,6 +193,11 @@
             "type": "Canvas",
             "height": 1349,
             "width": 2001,
+            "label": {
+                "en": [
+                    "Page 3"
+                ]
+            },
             "thumbnail": [
                 {
                     "id": "https://1915crewlists.rmg.co.uk/crewmedia/BT400-3578/BT400-3578-005/BT400-3578-005-3_thumb_240px.jpg",

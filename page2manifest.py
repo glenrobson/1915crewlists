@@ -26,12 +26,15 @@ def data2dict(section):
 
 def generateCanvases(html, fields):
     canvases = []
+    i = 1
     for anchor in html.find_all("a", class_="document__link"):
         fields['image_url'] = "https://1915crewlists.rmg.co.uk{}".format(anchor['href'])
         fields['file_id'] = os.path.basename(anchor['href'])[:-4]
         size = anchor['data-size'].split("x")
         fields['width'] = size[0]
         fields['height'] = size[1]
+        fields['label'] = "Page {}".format(i)
+        i +=1
 
         thumb = anchor.div.img
         fields['thumb_url'] = "https://1915crewlists.rmg.co.uk{}".format(thumb['data-src'])
@@ -47,6 +50,7 @@ if __name__ == "__main__":
     if len(sys.argv) != 2:
         doc_id = 189083
         print ('Usage:\n\t{} [Document id e.g. 189083 from https://1915crewlists.rmg.co.uk/document/189083]'.format(sys.argv[0]))
+        print ('Using default: {}'.format(doc_id))
     else:
         doc_id = sys.argv[1]
     
@@ -87,6 +91,7 @@ if __name__ == "__main__":
         with open(outputFile, 'w') as outfile:
             json.dump(manifest, outfile, indent=4)
 
+        print ('Saved manifest in: {}'.format(outputFile))
     else:
         print('Failed to get URL: {} Got: {}'.format(url,page.status_code))
 
