@@ -30,7 +30,7 @@ I've generated some data for the ship Canganian below partly to demonstrate the 
 <ul>
 {% for file in site.static_files %}
     {% if file.path contains 'manifests' %}
-<li data-url="{{file.path | relative_url}}" class="manifest"><a href="{{ file.path }}">Manifest</a><ul><li>View in: <a href="https://projectmirador.org/embed/?iiif-content={{site.url}}{{site.baseurl}}{{ file.path }}">Mirador</a></li><li>View in: <a href="https://uv-v3.netlify.app/#?c=&m=&s=&cv=&manifest={{site.url}}{site.baseurl}}{{ file.path }}">UniversalViewer</a></li></ul></li>
+<li data-url="{{site.baseurl}}{{file.path }}" class="manifest"><a href="{{ file.path }}">Manifest</a><ul><li>View in: <a href="https://projectmirador.org/embed/?iiif-content={{site.url}}{{site.baseurl}}{{ file.path }}">Mirador</a></li><li>View in: <a href="https://uv-v3.netlify.app/#?c=&m=&s=&cv=&manifest={{site.url}}{{site.baseurl}}{{ file.path }}">UniversalViewer</a></li></ul></li>
     {% endif %}
 {% endfor %}
 </ul>
