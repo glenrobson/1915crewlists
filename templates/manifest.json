@@ -1,0 +1,31 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://glenrobson.github.io/1915crewlists/manifests/{{ ship_id }}/{{ doc_id }}.json",
+    "type": "Manifest",
+    "label": {
+        "en": [
+            "{{! label }}"
+        ]
+    },
+    "rendering": [{
+        "id": "https://raw.githubusercontent.com/glenrobson/1915crewlists/main/docs/_data/csv/{{doc_id}}.csv",
+        "type": "Dataset",
+        "label": { "en": [ "Transcription data as a CSV" ] },
+        "format": "text/csv"
+    }],
+    "requiredStatement": {
+        "label": { "en": [ "Attribution" ] },
+        "value": { "en": [ "National Maritime Museum, Greenwich, London" ] }
+    },
+    "metadata": [
+        {
+          "label": { "en": [ "Ship name" ] },
+          "value": { "en": [ "{{ ship }}" ] }
+        },
+        {
+          "label": { "en": [ "Official number" ] },
+          "value": { "en": [ "{{ ship_id }}" ] }
+        }
+    ],
+    "items": []
+}

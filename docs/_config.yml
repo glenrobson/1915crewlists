@@ -3,3 +3,7 @@ theme: minima
 twitter_username: glenrobson
 github_username:  glenrobson
 linkedin_username: glenrobson
+webrick:
+  headers:
+    Access-Control-Allow-Origin: "*"
+

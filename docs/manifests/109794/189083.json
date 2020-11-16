@@ -1,0 +1,218 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://glenrobson.github.io/1915crewlists/manifests/109794/189083.json",
+    "type": "Manifest",
+    "label": {
+        "en": [
+            "Crew list document for vessel 'CANGANIAN', 18/02/1915 - 30/06/1915"
+        ]
+    },
+    "rendering": [
+        {
+            "id": "https://raw.githubusercontent.com/glenrobson/1915crewlists/main/docs/_data/csv/189083.csv",
+            "type": "Dataset",
+            "label": {
+                "en": [
+                    "Transcription data as a CSV"
+                ]
+            },
+            "format": "text/csv"
+        }
+    ],
+    "requiredStatement": {
+        "label": {
+            "en": [
+                "Attribution"
+            ]
+        },
+        "value": {
+            "en": [
+                "National Maritime Museum, Greenwich, London"
+            ]
+        }
+    },
+    "metadata": [
+        {
+            "label": {
+                "en": [
+                    "Ship name"
+                ]
+            },
+            "value": {
+                "en": [
+                    "Canganian"
+                ]
+            }
+        },
+        {
+            "label": {
+                "en": [
+                    "Official number"
+                ]
+            },
+            "value": {
+                "en": [
+                    "109794"
+                ]
+            }
+        },
+        {
+            "label": {
+                "en": [
+                    "Port"
+                ]
+            },
+            "value": {
+                "en": [
+                    "Cardiff"
+                ]
+            }
+        },
+        {
+            "label": {
+                "en": [
+                    "Owner"
+                ]
+            },
+            "value": {
+                "en": [
+                    "O & W Williams"
+                ]
+            }
+        },
+        {
+            "label": {
+                "en": [
+                    "Master"
+                ]
+            },
+            "value": {
+                "en": [
+                    "E H Williams"
+                ]
+            }
+        },
+        {
+            "label": {
+                "en": [
+                    "Valid dates for this crew list"
+                ]
+            },
+            "value": {
+                "en": [
+                    "18/02/1915 - 30/06/1915"
+                ]
+            }
+        }
+    ],
+    "items": [
+        {
+            "id": "https://glenrobson.github.io/1915crewlists/canvas/189083/BT400-3578-006-1.json",
+            "type": "Canvas",
+            "height": 1880,
+            "width": 1399,
+            "thumbnail": [
+                {
+                    "id": "https://1915crewlists.rmg.co.uk/crewmedia/BT400-3578/BT400-3578-006/BT400-3578-006-1_thumb_240px.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg",
+                    "height": 240,
+                    "width": 178
+                }
+            ],
+            "items": [
+                {
+                    "id": "https://glenrobson.github.io/1915crewlists/AnnotationPage/189083/BT400-3578-006-1.json",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://glenrobson.github.io/1915crewlists/annotation/189083/BT400-3578-006-1.json",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://1915crewlists.rmg.co.uk/crewmedia/BT400-3578/BT400-3578-006/BT400-3578-006-1.jpg",
+                                "type": "Image",
+                                "format": "image/jpg",
+                                "height": 1880,
+                                "width": 1399
+                            },
+                            "target": "https://glenrobson.github.io/1915crewlists/canvas/189083/BT400-3578-006-1.json"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://glenrobson.github.io/1915crewlists/canvas/189083/BT400-3578-006-2.json",
+            "type": "Canvas",
+            "height": 1372,
+            "width": 1995,
+            "thumbnail": [
+                {
+                    "id": "https://1915crewlists.rmg.co.uk/crewmedia/BT400-3578/BT400-3578-006/BT400-3578-006-2_thumb_240px.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg",
+                    "height": 240,
+                    "width": 348
+                }
+            ],
+            "items": [
+                {
+                    "id": "https://glenrobson.github.io/1915crewlists/AnnotationPage/189083/BT400-3578-006-2.json",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://glenrobson.github.io/1915crewlists/annotation/189083/BT400-3578-006-2.json",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://1915crewlists.rmg.co.uk/crewmedia/BT400-3578/BT400-3578-006/BT400-3578-006-2.jpg",
+                                "type": "Image",
+                                "format": "image/jpg",
+                                "height": 1372,
+                                "width": 1995
+                            },
+                            "target": "https://glenrobson.github.io/1915crewlists/canvas/189083/BT400-3578-006-2.json"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://glenrobson.github.io/1915crewlists/canvas/189083/BT400-3578-006-3.json",
+            "type": "Canvas",
+            "height": 1352,
+            "width": 1988,
+            "thumbnail": [
+                {
+                    "id": "https://1915crewlists.rmg.co.uk/crewmedia/BT400-3578/BT400-3578-006/BT400-3578-006-3_thumb_240px.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg",
+                    "height": 240,
+                    "width": 352
+                }
+            ],
+            "items": [
+                {
+                    "id": "https://glenrobson.github.io/1915crewlists/AnnotationPage/189083/BT400-3578-006-3.json",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://glenrobson.github.io/1915crewlists/annotation/189083/BT400-3578-006-3.json",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://1915crewlists.rmg.co.uk/crewmedia/BT400-3578/BT400-3578-006/BT400-3578-006-3.jpg",
+                                "type": "Image",
+                                "format": "image/jpg",
+                                "height": 1352,
+                                "width": 1988
+                            },
+                            "target": "https://glenrobson.github.io/1915crewlists/canvas/189083/BT400-3578-006-3.json"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
